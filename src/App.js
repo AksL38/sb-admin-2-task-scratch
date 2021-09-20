@@ -58,9 +58,8 @@ function App() {
 
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item dropdown no-arrow d-sm-none">
-                  <a
+                  <span
                     className="nav-link dropdown-toggle"
-                    href="#"
                     id="searchDropdown"
                     role="button"
                     data-toggle="dropdown"
@@ -68,7 +67,7 @@ function App() {
                     aria-expanded="false"
                   >
                     <i className="fas fa-search fa-fw"></i>
-                  </a>
+                  </span>
 
                   <div
                     className="
@@ -99,9 +98,8 @@ function App() {
                 </li>
 
                 <li className="nav-item dropdown no-arrow mx-1">
-                  <a
+                  <span
                     className="nav-link dropdown-toggle"
-                    href="#"
                     id="alertsDropdown"
                     role="button"
                     data-toggle="dropdown"
@@ -111,7 +109,7 @@ function App() {
                     <i className="fas fa-bell fa-fw"></i>
 
                     <span className="badge badge-danger badge-counter">3+</span>
-                  </a>
+                  </span>
 
                   <div
                     className="
@@ -122,10 +120,7 @@ function App() {
                     aria-labelledby="alertsDropdown"
                   >
                     <h6 className="dropdown-header">Alerts Center</h6>
-                    <a
-                      className="dropdown-item d-flex align-items-center"
-                      href="#"
-                    >
+                    <span className="dropdown-item d-flex align-items-center">
                       <div className="mr-3">
                         <div className="icon-circle bg-primary">
                           <i className="fas fa-file-alt text-white"></i>
@@ -139,11 +134,8 @@ function App() {
                           A new monthly report is ready to download!
                         </span>
                       </div>
-                    </a>
-                    <a
-                      className="dropdown-item d-flex align-items-center"
-                      href="#"
-                    >
+                    </span>
+                    <span className="dropdown-item d-flex align-items-center">
                       <div className="mr-3">
                         <div className="icon-circle bg-success">
                           <i className="fas fa-donate text-white"></i>
@@ -155,11 +147,8 @@ function App() {
                         </div>
                         $290.29 has been deposited into your account!
                       </div>
-                    </a>
-                    <a
-                      className="dropdown-item d-flex align-items-center"
-                      href="#"
-                    >
+                    </span>
+                    <span className="dropdown-item d-flex align-items-center">
                       <div className="mr-3">
                         <div className="icon-circle bg-warning">
                           <i className="fas fa-exclamation-triangle text-white"></i>
@@ -172,20 +161,16 @@ function App() {
                         Spending Alert: We've noticed unusually high spending
                         for your account.
                       </div>
-                    </a>
-                    <a
-                      className="dropdown-item text-center small text-gray-500"
-                      href="#"
-                    >
+                    </span>
+                    <span className="dropdown-item text-center small text-gray-500">
                       Show All Alerts
-                    </a>
+                    </span>
                   </div>
                 </li>
 
                 <li className="nav-item dropdown no-arrow mx-1">
-                  <a
+                  <span
                     className="nav-link dropdown-toggle"
-                    href="#"
                     id="messagesDropdown"
                     role="button"
                     data-toggle="dropdown"
@@ -195,7 +180,7 @@ function App() {
                     <i className="fas fa-envelope fa-fw"></i>
 
                     <span className="badge badge-danger badge-counter">7</span>
-                  </a>
+                  </span>
 
                   <div
                     className="
@@ -206,10 +191,7 @@ function App() {
                     aria-labelledby="messagesDropdown"
                   >
                     <h6 className="dropdown-header">Message Center</h6>
-                    <a
-                      className="dropdown-item d-flex align-items-center"
-                      href="#"
-                    >
+                    <span className="dropdown-item d-flex align-items-center">
                       <div className="dropdown-list-image mr-3">
                         <img
                           className="rounded-circle"
@@ -220,18 +202,15 @@ function App() {
                       </div>
                       <div className="font-weight-bold">
                         <div className="text-truncate">
-                          Hi there! I am wondering if you can help me with a
+                          Hi there! I am wondering if you can help me with span
                           problem I've been having.
                         </div>
                         <div className="small text-gray-500">
                           Emily Fowler · 58m
                         </div>
                       </div>
-                    </a>
-                    <a
-                      className="dropdown-item d-flex align-items-center"
-                      href="#"
-                    >
+                    </span>
+                    <span className="dropdown-item d-flex align-items-center">
                       <div className="dropdown-list-image mr-3">
                         <img
                           className="rounded-circle"
@@ -247,11 +226,8 @@ function App() {
                         </div>
                         <div className="small text-gray-500">Jae Chun · 1d</div>
                       </div>
-                    </a>
-                    <a
-                      className="dropdown-item d-flex align-items-center"
-                      href="#"
-                    >
+                    </span>
+                    <span className="dropdown-item d-flex align-items-center">
                       <div className="dropdown-list-image mr-3">
                         <img
                           className="rounded-circle"
@@ -269,11 +245,8 @@ function App() {
                           Morgan Alvarez · 2d
                         </div>
                       </div>
-                    </a>
-                    <a
-                      className="dropdown-item d-flex align-items-center"
-                      href="#"
-                    >
+                    </span>
+                    <span className="dropdown-item d-flex align-items-center">
                       <div className="dropdown-list-image mr-3">
                         <img
                           className="rounded-circle"
@@ -292,22 +265,18 @@ function App() {
                           Chicken the Dog · 2w
                         </div>
                       </div>
-                    </a>
-                    <a
-                      className="dropdown-item text-center small text-gray-500"
-                      href="#"
-                    >
+                    </span>
+                    <span className="dropdown-item text-center small text-gray-500">
                       Read More Messages
-                    </a>
+                    </span>
                   </div>
                 </li>
 
                 <div className="topbar-divider d-none d-sm-block"></div>
 
                 <li className="nav-item dropdown no-arrow">
-                  <a
+                  <span
                     className="nav-link dropdown-toggle"
-                    href="#"
                     id="userDropdown"
                     role="button"
                     data-toggle="dropdown"
@@ -320,8 +289,9 @@ function App() {
                     <img
                       className="img-profile rounded-circle"
                       src="img/undraw_profile.svg"
+                      alt=""
                     />
-                  </a>
+                  </span>
 
                   <div
                     className="
@@ -331,22 +301,21 @@ function App() {
                     "
                     aria-labelledby="userDropdown"
                   >
-                    <a className="dropdown-item" href="#">
+                    <span className="dropdown-item">
                       <i className="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                       Profile
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </span>
+                    <span className="dropdown-item">
                       <i className="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                       Settings
-                    </a>
-                    <a className="dropdown-item" href="#">
+                    </span>
+                    <span className="dropdown-item">
                       <i className="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                       Activity Log
-                    </a>
+                    </span>
                     <div className="dropdown-divider"></div>
-                    <a
+                    <span
                       className="dropdown-item"
-                      href="#"
                       data-toggle="modal"
                       data-target="#logoutModal"
                     >
@@ -359,7 +328,7 @@ function App() {
                         "
                       ></i>
                       Logout
-                    </a>
+                    </span>
                   </div>
                 </li>
               </ul>
@@ -375,8 +344,7 @@ function App() {
                 "
               >
                 <h1 className="h3 mb-0 text-gray-800">Dashboard</h1>
-                <a
-                  href="#"
+                <span
                   className="
                     d-none d-sm-inline-block
                     btn btn-sm btn-primary
@@ -385,7 +353,7 @@ function App() {
                 >
                   <i className="fas fa-download fa-sm text-white-50"></i>{" "}
                   Generate Report
-                </a>
+                </span>
               </div>
 
               <div className="row">
@@ -539,9 +507,8 @@ function App() {
                         Earnings Overview
                       </h6>
                       <div className="dropdown no-arrow">
-                        <a
+                        <span
                           className="dropdown-toggle"
-                          href="#"
                           role="button"
                           id="dropdownMenuLink"
                           data-toggle="dropdown"
@@ -549,7 +516,7 @@ function App() {
                           aria-expanded="false"
                         >
                           <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                        </a>
+                        </span>
                         <div
                           className="
                             dropdown-menu dropdown-menu-right
@@ -561,16 +528,12 @@ function App() {
                           <div className="dropdown-header">
                             Dropdown Header:
                           </div>
-                          <a className="dropdown-item" href="#">
-                            Action
-                          </a>
-                          <a className="dropdown-item" href="#">
-                            Another action
-                          </a>
+                          <span className="dropdown-item">Action</span>
+                          <span className="dropdown-item">Another action</span>
                           <div className="dropdown-divider"></div>
-                          <a className="dropdown-item" href="#">
+                          <span className="dropdown-item">
                             Something else here
-                          </a>
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -594,9 +557,8 @@ function App() {
                         Revenue Sources
                       </h6>
                       <div className="dropdown no-arrow">
-                        <a
+                        <span
                           className="dropdown-toggle"
-                          href="#"
                           role="button"
                           id="dropdownMenuLink"
                           data-toggle="dropdown"
@@ -604,7 +566,7 @@ function App() {
                           aria-expanded="false"
                         >
                           <i className="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                        </a>
+                        </span>
                         <div
                           className="
                             dropdown-menu dropdown-menu-right
@@ -616,16 +578,12 @@ function App() {
                           <div className="dropdown-header">
                             Dropdown Header:
                           </div>
-                          <a className="dropdown-item" href="#">
-                            Action
-                          </a>
-                          <a className="dropdown-item" href="#">
-                            Another action
-                          </a>
+                          <span className="dropdown-item">Action</span>
+                          <span className="dropdown-item">Another action</span>
                           <div className="dropdown-divider"></div>
-                          <a className="dropdown-item" href="#">
+                          <span className="dropdown-item">
                             Something else here
-                          </a>
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -803,7 +761,7 @@ function App() {
                         courtesy of
                         <a
                           target="_blank"
-                          rel="nofollow"
+                          rel="nofollow noreferrer"
                           href="https://undraw.co/"
                         >
                           unDraw
@@ -814,7 +772,7 @@ function App() {
                       </p>
                       <a
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noreferrer"
                         href="https://undraw.co/"
                       >
                         Browse Illustrations on unDraw &rarr;

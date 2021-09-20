@@ -39,9 +39,8 @@ export default function Sidebar() {
       <div className="sidebar-heading">Interface</div>
 
       <li className="nav-item">
-        <a
+        <span
           className="nav-link collapsed"
-          href="#"
           data-toggle="collapse"
           data-target="#collapseTwo"
           aria-expanded="true"
@@ -49,7 +48,7 @@ export default function Sidebar() {
         >
           <i className="fas fa-fw fa-cog"></i>
           <span>Components</span>
-        </a>
+        </span>
         <div
           id="collapseTwo"
           className="collapse"
@@ -69,9 +68,8 @@ export default function Sidebar() {
       </li>
 
       <li className="nav-item">
-        <a
+        <span
           className="nav-link collapsed"
-          href="#"
           data-toggle="collapse"
           data-target="#collapseUtilities"
           aria-expanded="true"
@@ -79,7 +77,7 @@ export default function Sidebar() {
         >
           <i className="fas fa-fw fa-wrench"></i>
           <span>Utilities</span>
-        </a>
+        </span>
         <div
           id="collapseUtilities"
           className="collapse"
@@ -109,9 +107,8 @@ export default function Sidebar() {
       <div className="sidebar-heading">Addons</div>
 
       <li className="nav-item">
-        <a
+        <span
           className="nav-link collapsed"
-          href="#"
           data-toggle="collapse"
           data-target="#collapsePages"
           aria-expanded="true"
@@ -119,7 +116,7 @@ export default function Sidebar() {
         >
           <i className="fas fa-fw fa-folder"></i>
           <span>Pages</span>
-        </a>
+        </span>
         <div
           id="collapsePages"
           className="collapse"
