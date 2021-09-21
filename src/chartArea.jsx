@@ -1,7 +1,6 @@
 import { Line } from "react-chartjs-2";
 export default function ChartArea() {
   const number_format = (number, decimals, dec_point, thousands_sep) => {
-    console.log("Number format called");
     // *     example: number_format(1234.56, 2, ',', ' ');
     // *     return: '1 234,56'
     number = (number + "").replace(",", "").replace(" ", "");
